@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/spring-boot-app.git'
+                git 'https://github.com/CengizOzdemir0/java21-virtual-threads'
             }
         }
         stage('Build') {
